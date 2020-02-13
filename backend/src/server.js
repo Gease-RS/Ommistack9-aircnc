@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://login:password@cluster0-3w5jm.mongodb.net/semana09?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://login:pass@cluster0-3w5jm.mongodb.net/semana09?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
